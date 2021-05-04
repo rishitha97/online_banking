@@ -1,0 +1,14 @@
+@main("Manage Accounts Page") {
+    <!-- this css class is not part of bootstrap but is defined in /css/style.css -->
+    <section id="content">
+        <div class="starter-template">
+            <h1>Add Accounts Module </h1>
+            <a href="@routes.HomeController.add_saving">
+                <span class="glyphicon glyphicon-plus-sign"></span> open New Savings Account
+            </a> <br>
+            <a href="@routes.HomeController.add_checking">
+                <span class="glyphicon glyphicon-plus-sign"></span> open New Checking Account
+            </a>
+        </div>
+    </section>
+}
